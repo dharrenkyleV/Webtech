@@ -1,0 +1,534 @@
+commit d436c0a8d3d50016ec46404ac837d3d72f536048
+Author:     dharrenkyleV <dharrenkyle@gmail.com>
+AuthorDate: 2026-11-07 09:18:42 +0000
+Commit:     dharrenkyleV <dharrenkyle@gmail.com>
+CommitDate: 2026-11-07 09:18:42 +0000
+
+    completed portfolio
+
+diff --git a/html-lab/about.html b/html-lab/about.html
+new file mode 100644
+index 0000000..d01f779
+--- /dev/null
++++ b/html-lab/about.html
+@@ -0,0 +1,11 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    
++</body>
++</html>
+\ No newline at end of file
+diff --git a/html-lab/contact.html b/html-lab/contact.html
+new file mode 100644
+index 0000000..e69de29
+diff --git a/html-lab/emmet-laboratory/01-basic.html b/html-lab/emmet-laboratory/01-basic.html
+new file mode 100644
+index 0000000..8d162e6
+--- /dev/null
++++ b/html-lab/emmet-laboratory/01-basic.html
+@@ -0,0 +1,28 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++
++    <header>
++        <h1>Intro</h1>
++        <nav>Navigation Link</nav>
++    </header>
++
++    <main>
++        <section>
++            <h2>Intro 2</h2>
++            <p>Pharagraph inside</p>
++            <div>
++                <span>inline inside span</span>
++            </div>
++        </section>
++    </main>
++    <footer>
++        contents of footer
++    </footer>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/html-lab/emmet-laboratory/02-classes-ids.html b/html-lab/emmet-laboratory/02-classes-ids.html
+new file mode 100644
+index 0000000..e4c2bfe
+--- /dev/null
++++ b/html-lab/emmet-laboratory/02-classes-ids.html
+@@ -0,0 +1,61 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++   <header class="site-header"></header>
++   <nav id="main-nav"></nav>
++   <main class="content"></main>
++   <section id="about"></section>
++   <foooter class="site-footer"></foooter>
++   <ul>
++    <li></li>
++   </ul>
++   <nav>
++    <ul>
++        <li></li>
++    </ul>
++   </nav>
++   <nav>
++    <ul>
++        <li></li>
++        <li></li>
++        <li></li>
++        <li></li>
++        <li></li>
++        
++        <h1></h1>
++        <p></p>
++
++        <h1></h1>
++        <h2></h2>
++        <p></p>
++        <p></p>
++
++        <li></li>
++        <li></li>
++        <li></li>
++        <li></li>
++        <li></li>
++
++        <div></div>
++        <div></div>
++        <div></div>
++
++        <p></p>
++        <p></p>
++        <p></p>
++        <p></p>
++        <p></p>
++
++        <h1>Web Technologies</h1>
++        <p>Welcom to my webpages.</p>
++        <h1>My Web Dev Journey</h1>
++        <p>I am earining htm , cs, javascript, and web dev.</p>
++    </ul>
++   </nav>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/html-lab/emmet-laboratory/03-navigation.html b/html-lab/emmet-laboratory/03-navigation.html
+new file mode 100644
+index 0000000..685d318
+--- /dev/null
++++ b/html-lab/emmet-laboratory/03-navigation.html
+@@ -0,0 +1,60 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <ul>
++        <li class="item1"></li>
++        <li class="item2"></li>
++        <li class="item3"></li>
++        <li class="item4"></li>
++        <li class="item5"></li>      
++    </ul>
++    <ul>
++        <li>menu1</li>
++        <li>menu2</li>
++        <li>menu3</li>
++        <li>menu4</li>
++        <li>menu5</li>
++    </ul>
++    <ul>
++        <li>Home</li>
++        <li>about</li>
++        <li>Service</li>
++        <li>projects</li>
++        <li>contact</li>
++    </ul>
++    <nav>
++        <ul>
++            <li><a href=""></a></li>
++            <li><a href=""></a></li>
++            <li><a href=""></a></li>
++            <li><a href=""></a></li>
++            <li><a href=""></a></li>
++        </ul>
++    </nav>
++     <nav>
++        <ul>
++            <li><a href="">Home</a></li>
++            <li><a href="">about</a></li>
++            <li><a href="">Portfolio</a></li>
++            <li><a href="">Services</a></li>
++            <li><a href="">Contact</a></li>
++        </ul>
++     </nav>
++     <input type="">
++     <input type="text" placeholder="Villanueva">
++     <input type="email" placeholder="BUBOT@gmail.com">
++     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBhSnuhQ3oyriwyctGYe7h500j5qbfaTRlgPQ1Egv4Bf-DKDOqRCwJ1_SGIKKTvEls_evtPwopfdYSSLgQQb2BCvBsw7fIkA39obStcb96&s=10" alt="andrew e">
++     <a href="https://www.google.com/goto?url=CAESTAHrOzAV_fX0F8si0oMa6vg6DhWip3b4NW-JgQyhNuNC8woRD88heHew-90_xwv7c0YKRKuBuBxKkfG66g87FH6rd0eHtxQWqzBbT1k">1xBet</a>
++
++     
++
++
++
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/html-lab/emmet-laboratory/04-form.html b/html-lab/emmet-laboratory/04-form.html
+new file mode 100644
+index 0000000..613fa13
+--- /dev/null
++++ b/html-lab/emmet-laboratory/04-form.html
+@@ -0,0 +1,48 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++   <input type="text" name="" id="">
++   <input type="email" name="" id="">
++   <input type="password" name="" id="">
++   <input type="checkbox" name="" id="">
++   <input type="radio" name="" id="">
++   <input type="submit" value=""> 
++
++   <label>Emai:</label>
++   <input type="text" name="Student Id" id="">
++   <br><br>
++   <label>Full Name:</label>
++   <input type="text" name="Full Name" id="">
++   <br><br>
++   <label for="">Email:</label>
++   <input type="email" name="email" id="">
++   <br><br>
++   <label for="">Password:</label>
++   <input type="password" name="Password" id="">
++   <br><br>
++   <label for="">Gender:</label>
++   <input type="radio" name="Gender" value="Male">Male
++   <input type="radio" name="Gender" value="Female">Female
++   <input type="radio" name="Gender" value="Other">Other
++   <br><br>
++   <label for="">Course:</label>
++   <input type="checkbox" name="Course" id="">
++    <br><br>
++    <label for="">Hobbies:</label>
++   <input type="text" name="Hobbies" id="">
++   <br><br>
++   <label for="">Address</label>
++   <input type="checkbox" name="Address" id="">
++   <br><br>
++   <label for="">Submit Button</label>
++   <input type="submit" value="Submit Button">
++
++
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/html-lab/emmet-laboratory/05-semantic.html b/html-lab/emmet-laboratory/05-semantic.html
+new file mode 100644
+index 0000000..4bec7cc
+--- /dev/null
++++ b/html-lab/emmet-laboratory/05-semantic.html
+@@ -0,0 +1,34 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++   <header>
++    <nav>
++        <ul>
++            <li><a href="https://www.facebook.com/">FaceBook</a></li>
++            <li><a href="https://www.merriam-webster.com/">merriam-webster</a></li>
++            <li><a href="https://www.instagram.com/?hl=en">instagram</a></li>
++            <li><a href="https://1xbet.com/en/block">1xBet</a></li>
++            <li><a href="https://ph.747.live/">747.live</a></li>
++        </ul>
++    </nav>
++   </header>
++   <main>
++    <section>
++        <article>
++            The Philippine Amusement and Gaming Corporation (PAGCOR) has taken aggressive steps to fundamentally transform the country’s massive but highly controversial online gambling ecosystem. Facing intense legislative scrutiny over social risks and a sharp dip in financial metrics, the state-run gaming regulator is pivoting away from rapid market expansion toward aggressive market consolidation, stricter digital advertising rules, and bulletproof user verification.
++        </article>
++    </section>
++   </main>
++   <footer>
++    <p>Love the Game Hate the Dealer</p>
++    <p>-Baccarat.</p>
++   </footer>
++
++   
++</body>
++</html>
+\ No newline at end of file
+diff --git a/html-lab/emmet-laboratory/index.html b/html-lab/emmet-laboratory/index.html
+new file mode 100644
+index 0000000..d01f779
+--- /dev/null
++++ b/html-lab/emmet-laboratory/index.html
+@@ -0,0 +1,11 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    
++</body>
++</html>
+\ No newline at end of file
+diff --git a/html-lab/emmet-laboratory/portfolio.html b/html-lab/emmet-laboratory/portfolio.html
+new file mode 100644
+index 0000000..c57c198
+--- /dev/null
++++ b/html-lab/emmet-laboratory/portfolio.html
+@@ -0,0 +1,27 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++  <header><h1>Villanueva, Dharrenkyle G.</h1>
++  <h2>I am a CITCS Student in University of the Cordilera</h2>
++</header>
++
++  <nav>
++    <ul>
++        <li><a href="">Home</a></li>
++        <li><a href="">About</a></li>
++        <li><a href="">Skills</a></li>
++        <li><a href="">Project</a></li>
++        <li><a href="">Contact</a></li>
++    </ul>
++  </nav>
++  <section id="Home">
++    <p>Welcome To mhy portfolio</p>
++    <p>My personal website</p>
++  </section>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/html-lab/formatting.html b/html-lab/formatting.html
+new file mode 100644
+index 0000000..f2542a7
+--- /dev/null
++++ b/html-lab/formatting.html
+@@ -0,0 +1,55 @@
++<!DOCTYPE html>
++<html lang="en">
++
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=, initial-scale=1.0">
++    <title>HTML Text Formatting</title>
++</head>
++
++<body>
++    <h1>HTML Text Formatting</h1>
++    <hr>
++    <p>
++        <b>Bold</b> Makes Texts Bold.
++    </p>
++    <p>
++        <Strong>strong</Strong> Indicate that the text is important.
++    </p>
++    <p>
++        <i>i</i> Displays text in italic.
++    </p>
++    <p>
++        <em>em</em> Emphasize text.
++    </p>
++    <p>
++        <u>u</u> Underline text.
++    </p>
++    <p>
++        <mark>mark</mark> Highlight text.
++    </p>
++    <p>
++        <small>small</small> Display smaller text.
++    </p>
++    <p>
++        <del>del</del> Indicate deleted text.
++    </p>
++    <p>
++        <ins>ins</ins> Indicate inserted text.
++    </p>
++    <p>
++        <sub>sub</sub> Used to define subscription text.
++    </p>
++    <p>
++        <sup>sup</sup> Used to define Superscript text.
++    </p>
++
++    <p>Water: H<sub>2</sub>0
++    </p>
++    <p>E = mc <sup>2</sup>
++    </p>
++
++
++</body>
++
++</html>
+\ No newline at end of file
+diff --git a/html-lab/index.html b/html-lab/index.html
+new file mode 100644
+index 0000000..256043f
+--- /dev/null
++++ b/html-lab/index.html
+@@ -0,0 +1,27 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++ 
++    <P>=============================</P>
++    <H1>My Personal Page</H1>
++    <p>=============================</p>
++    <h2>Dharren Kyle G Villanueva</h2>
++    <p>Bachelor of Science in Information Technology.</p>
++    <h3>About Me</h3>
++    <hr>
++    <p>----------</p>
++    <p>I am a Students of Information Technology.</p>
++    <h4>My Hobbies</h4>
++    <hr>
++    <p>I enjoy playing outdoorgames like Soccer,Basketball, and any other ball games.</p>
++
++    <p>=============================</p>
++
++   
++</body>
++</html>
+\ No newline at end of file
+diff --git a/html-lab/list b/html-lab/list
+new file mode 100644
+index 0000000..e69de29
+diff --git a/list.html b/list.html
+new file mode 100644
+index 0000000..1c7fe71
+--- /dev/null
++++ b/list.html
+@@ -0,0 +1,64 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    
++    <h1>Unordered List</h1>
++    <hr> 
++
++    <h2>==Favorite Food==</h2>
++    <ul>
++
++      <li>pizza</li>
++      <li>Burger</li>
++      <li>Adobo</li>
++      <li>Sinigang</li>
++      <li>Nachos and Milktea</li>
++
++    </ul>
++
++    <h1>Order List</h1>
++    <hr>
++    <h2>Top 5 Programmig Languages</h2>
++
++    <ol>
++
++        <li>JavaScript</li>
++        <li>Python</li>
++        <li>Java</li>
++        <li>PHP</li>
++        <li>C#</li>
++
++    </ol>
++    <h1>Nested list</h1>
++   <ul>
++    <li>Computer Science</li>
++    <ul>
++        <li>Programming</li>
++            <ul>
++                <li>Java</li>
++                <li>Python</li>
++                <li>PHP</li>
++            </ul>
++            <li>Web Developement</li>
++            <ul>
++                <li>Html</li>
++                <li>CSS</li>
++                <li>JavaScript</li>
++            </ul>
++        </ul>
++     </ul>
++
++
++
++
++
++
++
++
++</body>
++</html>
+\ No newline at end of file
+
+commit 20cda999cf371a73554b959fcaeac77f163c897c
+Author:     dharrenkyleV <dharrenkyle@gmail.com>
+AuthorDate: 2026-09-15 17:03:40 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-15 17:03:40 +0800
+
+    Initial commit
+
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..fd99687
+--- /dev/null
++++ b/README.md
+@@ -0,0 +1 @@
++# Webtech
+\ No newline at end of file
